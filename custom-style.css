@@ -1,1 +1,35 @@
-p {color:blue;}
+input {
+
+border: 1px solid grey;
+border-radius: 5px;
+padding: 3px 5px;
+margin-bottom: 10px;
+
+}
+
+img.main-image {
+	border: 2px solid #54C03F;
+	border-radius: 50%;
+	}
+
+body {
+	font-family: Arial;
+}
+
+h1, h2 {color: green;}
+	
+#main-header {
+	background-color: #D1FAD2;
+	padding: 50px;
+	margin: 50px;
+	border: 10px solid #00ff00
+	}
+
+	a {
+		color: darkgreen;
+		font-weight: bold;
+		text-decoration: none;
+		}
+
+
+	
