@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Go Note</title>
-		<link rel="stylesheet" href="custom-style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="custom-style.css">
+		<title>Go Note</title>
 	</head>
 	<body>
 		
@@ -16,20 +16,82 @@
 						<i class="bi bi-clipboard-check text-secondary"></i>
 						GoNote
 					</h3>
-					<button type="button" class="btn btn-info w-100 py-2 rounded-0">
+					<button type="button" class="btn btn-warning w-100 py-2 rounded-0">
 						<i class="bi bi-pen-fill"></i>
 						Stwórz nową notatkę
 					</button>
-					<div class="alert alert-warning m-3 text-center">
+					<div class="alert alert-primary m-3 text-center">
 						<i class="bi bi-emoji-frown"></i>
 						Jeszcze nie ma żadnych notatek do wyświetlenia
 					</div>
-					<div class="col-12 col-md-7 col-lg-8 bg-white p-0">
-						CZĘŚĆ GŁÓWNA
+					<div class="list-group pt-3 pb-5 px-1">
+						<div class="list-group-item">
+							<div class="list-group-item">
+								<div class="list-group-item">
+									<div class="float-end">
+										<div class="btn-group" role="group">
+											<button type="button" class="btn btn-outline-danger">
+												<i class="bi bi-trash-fill"></i>
+											</button>
+											<button type="button" class="btn btn-outline-secondary">
+												<i class="bi bi-eye-fill"></i>
+											</button>
+										</div>
+									</div>
+									<h5 class="mb-1">Notatka 1</h5>
+									<p class="text-muted">Utworzono 14:15 10.03.2021</p>
+								</div>
+								<div class="list-group pt-3 pb-5 px-1">
+									<div class="list-group-item">
+										<div class="float-end">
+											<div class="btn-group" role="group">
+												<button type="button" class="btn btn-outline-danger">
+													<i class="bi bi-trash-fill"></i>
+												</button>
+												<button type="button" class="btn btn-outline-secondary">
+													<i class="bi bi-eye-fill"></i>
+												</button>
+											</div>
+										</div>
+										<h5 class="mb-1">Notatka 2</h5>
+										<p class="text-muted">Utworzono 14:15 10.03.2021</p>
+									</div>
+								</div>
+								
+							</div>
+						</div>	
 					</div>
 				</div>
+				<div class="col-12 col-md-7 col-lg-8 bg-white p-0">
+					<div class="cover d-none d-sm-block"></div>
+					<form class-"m-4">
+						<div class="mb-3">
+							<label for="exampleFormControlInput1" class="form-label">Nazwa</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Moja pierwsza notatka">
+						</div>
+						<div class="mb-3">
+							<label for="exampleFormControlTextarea1" class="form-label">Zawartość</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tutaj wpisz notatkę"></textarea>
+						</div>
+						<button type="button" class="btn btn-info w-100 py-2 rounded-0">
+							<i class="bi bi-save"></i>
+							Stwórz nową notatkę
+						</button>
+						</form>
+					</div>
+					
+					<nav class="navbar fixed-bottom navbar-dark bg-dark">
+						<div class="container-fluid justify-content-end p-2">
+							<span class="text-muted mx-5 d-none d-md-block">
+								©2021 Polityka prywatności | Warunki korzystania z usługi
+							</span>
+							<span class="text-light">
+								<i class="bi bi-heart-fill"></i>
+								Moje konto
+							</span>
+						</div>
+					</nav>
+				</div>
 			</div>
-			
-			
 		</body>
 	</html>

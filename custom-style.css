@@ -31,5 +31,10 @@ h1, h2 {color: green;}
 		text-decoration: none;
 		}
 
+.cover {
+ background-image: url("./tlo.jpg"); 
+ background-position: center;
+ background-size: cover;
+ min-height: 150px;
+}
 
-	
